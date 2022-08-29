@@ -1,0 +1,14 @@
+
+/* random-api-exploration */
+#user-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: red;
+}
+.user-box{
+ border-radius: 15px;
+  margin: 20px;
+  padding-left: 20px;
+  background-color: yellow;
+}
+/* end */
