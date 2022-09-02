@@ -12,6 +12,7 @@ const displayUsers = users =>{
     const userDiv = document.createElement('div');
     userDiv.classList.add('user-box');
     userDiv.innerHTML = `
+    <img src = "${user.picture.thumbnail}">
     <h4>User name: ${user.name.first} ${user.name.last}</h4>
     <p>User mail: ${user.email}</p>
     <p>Location: ${user.location.city} ${user.location.country}</p>`;
